@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  opengl.cpp
 //  triangle
 //
 //  Created by miyamoto masaru on 2015/10/27.
 //  Copyright (c) 2015年 com.miyamoto. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "CreateField.h"
-@interface ViewController : UIViewController
+#include "opengl.h"
 
-
-@end
-
+int hittest_point_polygon_2d(glVertex2d A)
+{
+    
+}

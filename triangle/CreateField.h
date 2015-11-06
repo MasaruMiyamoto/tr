@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CreateField.h
 //  triangle
 //
 //  Created by miyamoto masaru on 2015/10/27.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CreateField.h"
-@interface ViewController : UIViewController
 
+@interface CreateField : UIView
+- (void)createPoint :(CGPoint)a :(CGPoint)b :(CGPoint)c;
+- (void)movePoint :(CGPoint)a;
 
 @end
-

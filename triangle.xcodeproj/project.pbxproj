@@ -14,6 +14,8 @@
 		44BBA16E1BDEBFB500B15D0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA16D1BDEBFB500B15D0A /* Images.xcassets */; };
 		44BBA1711BDEBFB500B15D0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA16F1BDEBFB500B15D0A /* LaunchScreen.xib */; };
 		44BBA17D1BDEBFB500B15D0A /* triangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA17C1BDEBFB500B15D0A /* triangleTests.m */; };
+		44BBA1881BDEC0B100B15D0A /* CreateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA1871BDEC0B100B15D0A /* CreateField.m */; };
+		44BBA18D1BDED1AC00B15D0A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BBA18C1BDED1AC00B15D0A /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		44BBA1761BDEBFB500B15D0A /* triangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BBA17B1BDEBFB500B15D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BBA17C1BDEBFB500B15D0A /* triangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = triangleTests.m; sourceTree = "<group>"; };
+		44BBA1861BDEC0B100B15D0A /* CreateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateField.h; sourceTree = "<group>"; };
+		44BBA1871BDEC0B100B15D0A /* CreateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateField.m; sourceTree = "<group>"; };
+		44BBA18C1BDED1AC00B15D0A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BBA18D1BDED1AC00B15D0A /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		44BBA1541BDEBFB500B15D0A = {
 			isa = PBXGroup;
 			children = (
+				44BBA18C1BDED1AC00B15D0A /* OpenGLES.framework */,
 				44BBA15F1BDEBFB500B15D0A /* triangle */,
 				44BBA1791BDEBFB500B15D0A /* triangleTests */,
 				44BBA15E1BDEBFB500B15D0A /* Products */,
@@ -85,6 +92,8 @@
 				44BBA1651BDEBFB500B15D0A /* AppDelegate.m */,
 				44BBA1671BDEBFB500B15D0A /* ViewController.h */,
 				44BBA1681BDEBFB500B15D0A /* ViewController.m */,
+				44BBA1861BDEC0B100B15D0A /* CreateField.h */,
+				44BBA1871BDEC0B100B15D0A /* CreateField.m */,
 				44BBA16A1BDEBFB500B15D0A /* Main.storyboard */,
 				44BBA16D1BDEBFB500B15D0A /* Images.xcassets */,
 				44BBA16F1BDEBFB500B15D0A /* LaunchScreen.xib */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BBA1881BDEC0B100B15D0A /* CreateField.m in Sources */,
 				44BBA1691BDEBFB500B15D0A /* ViewController.m in Sources */,
 				44BBA1661BDEBFB500B15D0A /* AppDelegate.m in Sources */,
 				44BBA1631BDEBFB500B15D0A /* main.m in Sources */,
